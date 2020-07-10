@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="submit" type="id" />
+    <item name="submit2" type="id" />
+    <item name="usd" type="id" />
+    <item name="bdt" type="id" />
+</resources>

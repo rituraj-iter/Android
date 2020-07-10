@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D50B3B">
+
+    <EditText
+        android:id="@+id/entry1"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:hint="Dollars"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/entry2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@+id/TAP"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:hint="Rupees"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/TAP"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_below="@+id/entry1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:onClick="tap"
+        android:text="Dollars To Rupees" />
+
+    <Button
+        android:id="@+id/TAP2"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_below="@+id/entry2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:onClick="tap2"
+        android:text="RUPEES TO DOLLARS" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_below="@+id/TAP2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="40dp"
+        android:onClick="clear"
+        android:text="CLEAR ALL" />
+</RelativeLayout>
