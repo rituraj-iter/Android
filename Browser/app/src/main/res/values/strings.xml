@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Browser</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="go">Go</string>
+    <string name="direct_to_google_com">Direct to google.com</string>
+    <string name="kri_browser">KrI Browser</string>
+    <string name="in_devlopment">In Devlopment</string>
+</resources>
