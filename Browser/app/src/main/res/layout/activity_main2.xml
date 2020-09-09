@@ -51,7 +51,7 @@
         android:id="@+id/button2"
         android:layout_width="411dp"
         android:layout_height="52dp"
-        android:layout_marginTop="370dp"
+        android:layout_marginBottom="1dp"
         android:background="#FFFFFF"
         android:onClick="google"
         android:text="@string/direct_to_google_com"
@@ -63,8 +63,27 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.896" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#FFFFFF"
+        android:onClick="check"
+        android:text="Tap to check internet connectivity"
+        android:textColor="#1115EF"
+        android:textColorHighlight="#D30DE1"
+        android:textColorHint="#A66767"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 </androidx.constraintlayout.widget.ConstraintLayout>
