@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Random Color</string>
+    <string name="tap_to_generate_color">Tap to generate color</string>
+</resources>
