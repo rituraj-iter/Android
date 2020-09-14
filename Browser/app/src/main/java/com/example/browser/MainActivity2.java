@@ -76,4 +76,11 @@ public class MainActivity2 extends AppCompatActivity {
                     .show();
         }
     }
+     public void share(View view) {
+        Intent intent=new Intent();
+        intent.setAction(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT,"Hello");
+        startActivity(intent);
+    }
 }
